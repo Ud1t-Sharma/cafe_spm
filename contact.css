@@ -1,0 +1,62 @@
+body{
+    background: url(cafe_photo/contactus.webp);
+    background-color: rgba(0, 0, 0, 0.226);
+    background-blend-mode: darken;
+}
+
+.col-md-8, .row{
+    color: aliceblue;
+    font-size: 40px;
+    
+}
+
+.row{
+    background-color: rgba(105, 21, 169, 0);
+    padding: 10px;
+    border-radius: 30px;
+   
+}
+
+p{
+    font-size: 20px;
+}
+
+input, textarea{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+
+
+.bottom-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Optional: Add a background color */
+    padding: 10px 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    color: white; /* Optional: Change text color */
+  }
+  
+  .contact-item .icon {
+    margin-right: 10px;
+  }
+  
+  .contact-item .info h6 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .contact-item .info p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,67 @@
+body {
+    background: url('cafe_photo/blur.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 92.75px;
+    background-color: rgb(236, 224, 224);
+}
+
+h1, h5, h3 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.card-imagia .cover-imagia {
+    height: 160px;
+    overflow: hidden;
+    border-radius: 6px 6px 0 0;
+}
+
+.card-container-imagia {
+    height: auto;
+    width: 389px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    perspective: 1500px;
+    object-fit: cover;
+}
+
+i, span {
+    text-align: center;
+    width: 100%;
+}
+
+.cover {
+    width: 389px;
+    height: auto;
+}
+
+.card-section-imagia {
+    padding: 20px;
+}
+
+.card-section-imagia h1 {
+    font-size: 60px;
+}
+
+.card-imagia {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front-imagia, .back-imagia {
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.242);
+}
+
+.front-imagia {
+    z-index: 2;
+}
+
+h4 {
+    text-align: center;
+}
+
+.card-container-imagia:hover .back-imagia {
+    visibility: visible;
+}

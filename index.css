@@ -1,0 +1,24 @@
+a.btn{
+    padding: 9px;
+    font-size: 1.25rem;
+    background-color: rgba(149, 69, 53, 0.9);
+    border: 0cap;
+}
+.btn:hover {
+    background-color: #986960;
+    color: #fff;
+    box-shadow: 0 2px 0 2px #954535;
+}
+
+.imdiv{
+    height: 600px;
+    background: url(cafe_photo/homepage.webp) center / cover no-repeat;
+    height: 92.65vh;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.0);
+    background-blend-mode: darken;
+}
+
+.written{
+    max-width: 350px;
+}
